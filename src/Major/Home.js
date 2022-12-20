@@ -6,7 +6,7 @@ function Home() {
   useEffect(() => {
     const getTeamStats = async () => {
       const { data: post } = await Axios.get(
-        `https://https://scouting2.herokuapp.com/getTeams`
+        `https://scouting2.herokuapp.com/getTeams`
       );
       setTeamsList(post);
     };
