@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../Styles/home.css";
+import Axios from "axios";
 function Home() {
   const [teamsList, setTeamsList] = useState([]);
   useEffect(() => {
