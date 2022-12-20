@@ -15,7 +15,7 @@ function Home() {
     <div>
       <div className="container teams ">
         <br />
-        <div className="headers">Teams</div>
+        <div className="headers">Teams aaah</div>
         {teamsList.map((value, key) => {
           return <>hi {value.team_name}</>;
         })}
