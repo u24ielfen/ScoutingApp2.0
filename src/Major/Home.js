@@ -17,7 +17,7 @@ function Home() {
         <br />
         <div className="headers">Teams</div>
         {teamsList.map((value, key) => {
-          return <>{value.team_name}</>;
+          return <>hi {value.team_name}</>;
         })}
       </div>
     </div>
