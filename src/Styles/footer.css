@@ -1,0 +1,22 @@
+.footer {
+  background-color: rgb(43, 138, 220);
+  height: 40px;
+}
+
+.big-plus {
+  margin-top: -3%;
+}
+
+.gear {
+  margin-left: -1%;
+}
+.pop-up {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  height: 140px;
+  margin-bottom: 5%;
+  border-radius: 10%;
+  visibility: hidden;
+  font-size: 20px;
+  line-height: 40px;
+}

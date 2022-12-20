@@ -1,0 +1,17 @@
+.header {
+  height: 60px;
+  align-items: center;
+  background-color: rgb(43, 138, 220);
+}
+
+.arrow {
+  margin-top: 7%;
+  margin-left: 7%;
+  color: white;
+}
+
+.text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 30px;
+}

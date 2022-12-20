@@ -1,0 +1,16 @@
+.teams {
+  background-color: rgb(255, 184, 53);
+  margin-top: 10%;
+  height: 100px;
+  width: 80%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.headers {
+  margin-top: -5%;
+  font-size: 20px;
+  margin-left: 3%;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
