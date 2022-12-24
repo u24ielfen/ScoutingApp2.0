@@ -1,0 +1,23 @@
+.image {
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  opacity: 80%;
+  position: relative;
+}
+
+.cropContainer {
+  margin-top: -30px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.biggerDiv {
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.slider {
+  height: 50px;
+}

@@ -1,11 +1,27 @@
 .teams {
-  background-color: rgb(255, 184, 53);
+  background-image: linear-gradient(
+    to right,
+    rgba(252, 155, 12, 255),
+    rgb(207, 105, 2)
+  );
   margin-top: 10%;
-  height: 100px;
   width: 80%;
   border-radius: 10px 10px 10px 10px;
+  padding-bottom: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.matches {
+  background-image: linear-gradient(
+    to right,
+    rgba(252, 155, 12, 255),
+    rgb(207, 105, 2)
+  );
+  margin-top: 10%;
+  width: 80%;
+  border-radius: 10px 10px 10px 10px;
+  padding-bottom: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .headers {
   margin-top: -5%;
   font-size: 20px;
@@ -13,4 +29,10 @@
   font-weight: 1000;
   letter-spacing: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.team {
+  margin-left: 5%;
+  font-size: 15px;
+  color: black;
 }

@@ -1,18 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import header from "../Styles/header.css";
+import { NavLink } from "react-router-dom";
+
 function Header(props) {
-  const mayBeIcon = () => {
-    if (props.hasBack == "true") {
-    }
-  };
   return (
-    <div className="header">
+    <div className="header bg-primary">
       <div className="row">
         <div className="col-2 m-3">
-          <i className="fa-solid fa-arrow-left fa-xl arrow"></i>
-          {mayBeIcon}
+          {props.hasBack == "true" ? (
+            <>
+              <NavLink to={`${props.linkBack}`}>
+                <i className="fa-solid fa-arrow-left fa-xl arrow"></i>
+              </NavLink>
+            </>
+          ) : null}
         </div>
-        <div className="col-3 m-2">
+        <div className="col-6" style={{ marginLeft: "-9%", marginTop: "1%" }}>
           <p className="text"> {props.name}</p>
         </div>
       </div>
